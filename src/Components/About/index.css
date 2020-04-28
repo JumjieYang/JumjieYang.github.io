@@ -1,10 +1,42 @@
-.about h1 {
-    font-size: medium;
+.about {
+    padding: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: 5%;
+    height: 100%;
     font-family: 'Gill Sans',sans-serif;
     font-weight: bold;
 }
 
-.about p {
-    font-size: 8.5pt;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+.about .image {
+    width: 100%;
+    height: 100%;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.about p {
+    font-size: auto;
+    font-family: 'Sniglet', sans-serif;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 25pt;
+    font-family: 'Fredoka One', cursive;
+}
+.about h2 {
+    text-align: auto;
+    font-size: 15pt;
+    font-family: 'Sniglet', fantasy;
+}
+

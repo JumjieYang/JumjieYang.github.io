@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { List, Card } from 'antd';
 import './index.css'
 import "antd/dist/antd.css";
 
-class Projects extends Component {
-    render () {
+const Projects = () => {
         const data = [
             {
                 title: 'TuTorPlatform',
@@ -35,42 +34,62 @@ class Projects extends Component {
                 title: "AutoRegister",
                 description: "a script helps students to register their course",
                 url: "https://github.com/JumjieYang/autoRegister"
+            },
+            {
+                title: "3D-Tic-Tac-Toe",
+                description: "My own C++ implementation of a classic game -- Tic-Tac-Toe",
+                url: "https://github.com/JumjieYang/3D-Tic-Tac-Toe"
+            },
+            {
+                title: "Blackjack",
+                description: "a C++ implementation of Blackjack Game",
+                url: "https://github.com/JumjieYang/Blackjack"
+            },
+            {
+                title: "Text Classification",
+                description: "A machine learning project for text classification on two datasets",
+                url: "https://github.com/JumjieYang/TextClassification"
+            },
+            {
+                title: "All-in-one Music Player (On Going)",
+                description: "A cross platform project using React and React Native to implement a music player client",
+                url: "https://github.com/JumjieYang"
             }
         ]
         return (
         <div style={{paddingRight: "0.5%"}} className ='projects'>
+            <h1>Projects Exhibition</h1>
             <hr/>
-            <h1>Projects</h1>
-            <hr />
-            <List
+            <List 
+            style={{padding: "5%"}}
     grid={{
       gutter: 3,
-      xs: 3,
-      sm: 3,
+      xs: 2,
+      sm: 2,
       md: 3,
       lg: 3,
-      xl: 3,
-      xxl: 3,
+      xl: 4,
+      xxl: 4
     }}
             dataSource={data}
             renderItem={item => (
-                <List.Item>
+                <List.Item style={{alignItems:"auto"}}>
                     <Card 
                     onClick={() => {window.open(item.url)}}
                     bordered="false"
                     shape="round"
                     size="small"
-                    style={{height: "170px", width: "250px",margin:"auto"}}
+                    style={{height: "170px", width: "220px",margin:"auto", textAlign:"center"}}
                      hoverable
-                     title={item.title} >
-                    <p>{item.description}</p>
+                     title={item.title}
+                     >
+                    <p style={{textAlign:"left"}}>{item.description}</p>
                     </Card>
                 </List.Item>
             )}
             />
         </div>
         )
-    }
 }
 
 export default Projects

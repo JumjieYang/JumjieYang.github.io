@@ -1,28 +1,22 @@
-import React, { Component } from 'react';
-import Typed from 'react-typed';
-class Top extends Component {
-    render() {
+import React from 'react';
+import { Link } from 'react-router-dom';
+import "./index.css";
+const Top = () => {
+
         return (
-            <div style={{marginLeft: "700px"}} className='top'>
-                <h1 style={{color: "white"}}>
-                A website for &nbsp;
-                <Typed
-                    strings={[
-                        'a student',
-                        'a programmer',
-                        'a passionist',
-                        'Junjie Yang'
-                    ]}
-                    typeSpeed={100}
-                    backSpeed={80}
-                    loop
-                    showCursor={false}
-                    />
+            <div className='top'>
+                <h1>
+                Junjie Yang
                 </h1>
-                
+                <h2>
+                    <Link style={{color:"rgb(77, 76, 76)"}} to="/">Home </Link> |
+                    <Link style={{color:"rgb(77, 76, 76)"}} to="/About"> About </Link> |
+                    <Link style={{color:"rgb(77, 76, 76)"}} to="/projects"> Projects </Link> |
+                    <a href="https://github.com/JumjieYang"> GitHub </a>
+                </h2>
             </div>
         )
-    }
 }
+
 
 export default Top;

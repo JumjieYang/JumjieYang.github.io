@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './index.css';
 import { GithubOutlined, MailOutlined, ZhihuCircleFilled } from '@ant-design/icons'
 
-class Footer extends Component {
-    render () {
+const Footer = () => {
         let icon = {
             fontSize: '20px',
             color: 'black'
@@ -27,7 +26,6 @@ class Footer extends Component {
                 </p>
             </div>
         )
-    }
 }
 
 export default Footer

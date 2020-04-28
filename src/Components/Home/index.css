@@ -1,0 +1,41 @@
+
+.home {
+    color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(75, 142, 175, 0.5),rgba(0, 0, 0, 0.0)), url("../../Assets/pics/Home/IMG_0136.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Special Elite', cursive;
+    font-size: 30px;
+}
+
+.home h2{
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Special Elite', cursive;
+    font-size: 30px;
+}
+
+.icons {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: black;
+}
+

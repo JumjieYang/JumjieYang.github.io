@@ -1,5 +1,18 @@
+.projects {
+    padding: 0px;
+    padding-top: 0px;
+    padding-bottom: 75px;
+    padding-left: 1%;
+    padding-right: 2%;
+    text-align: 5%;
+    height: auto;
+    font-family: 'Gill Sans',sans-serif;
+    font-weight: lighter;
+}
 .projects h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    margin-left: 140px;
+    padding-top: 2%;
+    font-family: fantasy;
+    font-weight: normal;
+    margin: auto;
+    text-align: center;
 }

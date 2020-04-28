@@ -1,31 +1,33 @@
-import React, {Component} from 'react';
-import Footer from './Components/Footer'
-import Projects from './Components/Projects'
-import Top from './Components/Top'
-import About from './Components/About'
+import React from 'react';
+import Footer from './Components/Footer';
+import Projects from './Components/Projects';
+import Top from './Components/Top';
+import About from './Components/About';
+import Home from './Components/Home';
 import './App.css';
-import { Layout } from 'antd';
-class App extends Component{
-  render (){
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+const App = () => {
   return (
-         <Layout id='app'>
-           <Layout.Header>
-            <Top/>
-           </Layout.Header>
-           <Layout className="contents">
-           <Layout.Sider>
-             <About/>
-           </Layout.Sider>
-           <Layout.Content>
-             <Projects/>
-           </Layout.Content>
-           </Layout>
-           <Layout.Footer>
-             <Footer/>
-           </Layout.Footer>
-         </Layout>
+         <Router className='app'>
+             <Switch>
+               <div>
+               <Route exact path="/">
+                 <Home/>
+               </Route>
+               <Route path="/about">
+                  <Top/>
+                  <About/>
+                  <Footer/>
+               </Route>
+               <Route path="/projects">
+                 <Top/>
+                 <Projects/>
+                 <Footer/>
+               </Route>
+               </div>
+             </Switch>
+         </Router>
   );
-  }
 }
 
 export default App;

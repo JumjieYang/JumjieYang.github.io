@@ -1,0 +1,16 @@
+.top {
+    background-color:#7997BB;
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+}
+
+.top h1 {
+    color: rgb(77, 76, 76);
+}
+
+.top h2 a{
+    color: rgb(77, 76, 76);
+}
