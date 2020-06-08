@@ -6,6 +6,7 @@ import About from './Components/About';
 import Home from './Components/Home';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Resume from './Components/Resume';
 const App = () => {
   return (
          <Router className='app'>
@@ -22,6 +23,11 @@ const App = () => {
                <Route path="/projects">
                  <Top/>
                  <Projects/>
+                 <Footer/>
+               </Route>
+               <Route path="/Resume">
+                 <Top/>
+                 <Resume/>
                  <Footer/>
                </Route>
                </div>
