@@ -92,7 +92,6 @@ const Projects = () => {
                     size="small"
                     style={{height: "170px", width: "220px",margin:"auto", textAlign:"center"}}
                      hoverable
-                     cover = { <img alt="item-img" src={item.pic} />}
                      >
                     <Meta title={item.title} description={item.description}/>
                     </Card>
