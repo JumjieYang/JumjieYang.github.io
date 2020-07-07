@@ -25,21 +25,9 @@ const Projects = () => {
                 pic: ""
             },
             {
-                title: "MipsImageProcessor",
-                description: "A simple image processor implemented in MIPS assembly language",
-                url: "https://github.com/JumjieYang/MipsImageProcessor",
-                pic: ""
-            },
-            {
                 title: "FindExamDate",
                 description: "A script helps students to find their exam dates without open a browser",
                 url: "https://github.com/JumjieYang/FindExamDate",
-                pic: ""
-            },
-            {
-                title: "AutoRegister",
-                description: "a script helps students to register their course",
-                url: "https://github.com/JumjieYang/autoRegister",
                 pic: ""
             },
             {
@@ -69,18 +57,16 @@ const Projects = () => {
         ]
         return (
         <div style={{paddingRight: "0.5%"}} className ='projects'>
-            <h1>Projects Exhibition</h1>
-            <hr/>
             <List 
-            style={{padding: "5%"}}
+            style={{padding: "2%"}}
     grid={{
-      gutter: 3,
+      gutter: 2,
       xs: 2,
       sm: 2,
-      md: 3,
-      lg: 3,
-      xl: 4,
-      xxl: 4
+      md: 4,
+      lg: 4,
+      xl: 6,
+      xxl: 6
     }}
             dataSource={data}
             renderItem={item => (

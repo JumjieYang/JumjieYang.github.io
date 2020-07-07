@@ -1,12 +1,12 @@
 import React from 'react';
 import Typed from 'react-typed';
 import { Link } from "react-router-dom";
-import { GithubOutlined, MailOutlined} from '@ant-design/icons';
+import { GithubOutlined, MailOutlined, InfoCircleOutlined, ProjectOutlined, ProfileOutlined, } from '@ant-design/icons';
 import './index.css'
 const Home = () => {
         return (
             <div className="home">
-                <p>
+                <p style={{whiteSpace:"nowrap"}}>
                 I'm &nbsp;
                 <Typed
                     strings={[
@@ -22,20 +22,20 @@ const Home = () => {
                     />
                     </p>
                 <h2>
-                    <Link style={{color:"black"}} to="/about">About</Link>
-                    &nbsp; | &nbsp;
-                    <Link style={{color:"black"}} to="/projects">Project</Link>
-                </h2>
-                <hr/>
-                <div className="icons">
+                    <Link style={{color:"black"}} to="/about"><InfoCircleOutlined/></Link>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <Link style={{color:"black"}} to="/projects"><ProjectOutlined rotate={270} /></Link>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
                    <a href='mailto:junjie.yang2@mail.mcgill.ca' target='_blank' rel="noopener noreferrer">
                     <MailOutlined style={{color:"black"}}/>
                 </a>
-                &nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;
                 <a href='https://github.com/JumjieYang' target='_blank' rel="noopener noreferrer">
                     <GithubOutlined style={{color:"black"}}/>
                 </a>
-                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <Link style={{color:"black"}} to="/resume"><ProfileOutlined /></Link>
+                </h2>
         </div>
 
         )

@@ -1,16 +1,14 @@
-.top {
-    background-color:#7997BB;
-    padding: 5px;
-    padding-top: 10px;
-    padding-left: 5%;
-    padding-right: 5%;
-    text-align: left;
+.top-container {
+    margin-top: -12px;
+    background-color: rgb(162, 192, 247);
 }
 
-.top h1 {
-    color: rgb(77, 76, 76);
+.top-container .top-content {
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
-.top h2 a{
-    color: rgb(77, 76, 76);
+.top-container .top-content .h2 {
+    margin-top: -5px;
+
 }

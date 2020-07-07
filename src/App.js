@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from './Components/Footer';
 import Projects from './Components/Projects';
 import Top from './Components/Top';
 import About from './Components/About';
@@ -16,19 +15,16 @@ const App = () => {
                  <Home/>
                </Route>
                <Route path="/about">
-                  <Top/>
+                  <Top name={"About Me"}/>
                   <About/>
-                  <Footer/>
                </Route>
                <Route path="/projects">
-                 <Top/>
+                 <Top name = {"Projects Exhibition"}/>
                  <Projects/>
-                 <Footer/>
                </Route>
-               <Route path="/Resume">
-                 <Top/>
+               <Route path="/resume">
+                 <Top name = {"Resume"}/>
                  <Resume/>
-                 <Footer/>
                </Route>
                </div>
              </Switch>
