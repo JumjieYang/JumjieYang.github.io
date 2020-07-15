@@ -15,8 +15,8 @@
 .about .image {
     width: 100%;
     height: 100%;
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 150px;
+    max-height: 150px;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     display: block;
@@ -37,6 +37,6 @@
 .about h2 {
     text-align: auto;
     font-size: 15pt;
-    font-family: 'Sniglet', fantasy;
+    font-family: 'Sniglet', cursive;
 }
 

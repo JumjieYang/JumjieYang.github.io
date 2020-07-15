@@ -14,7 +14,11 @@ const Top = (prop) => {
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     <Link style={{color:"black"}} to="/projects"><ProjectOutlined rotate={270} /></Link>
                     &nbsp;&nbsp;&nbsp;&nbsp;
-                   <a href='mailto:junjie.yang2@mail.mcgill.ca' target='_blank' rel="noopener noreferrer">
+
+                {/* <Link style={{color:"black"}} to="/resume"><ProfileOutlined /></Link>
+                &nbsp;&nbsp;&nbsp;&nbsp; */}
+
+                <a href='mailto:junjie.yang2@mail.mcgill.ca' target='_blank' rel="noopener noreferrer">
                     <MailOutlined style={{color:"black"}}/>
                 </a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -22,7 +26,6 @@ const Top = (prop) => {
                     <GithubOutlined style={{color:"black"}}/>
                 </a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <Link style={{color:"black"}} to="/resume"><ProfileOutlined /></Link>
             </h2>
             </div>
        </div>

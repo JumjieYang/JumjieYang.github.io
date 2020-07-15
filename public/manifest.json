@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Junjie Yang",
+  "name": "Junjie Yang's Website",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "/Users/junjie/Desktop/JumjieYang.github.io/src/Assets/pics/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "/Users/junjie/Desktop/JumjieYang.github.io/src/Assets/pics/About/IMG_0519.jpeg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "/Users/junjie/Desktop/JumjieYang.github.io/src/Assets/pics/About/IMG_0519.jpeg",
       "type": "image/png",
       "sizes": "512x512"
     }

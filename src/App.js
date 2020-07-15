@@ -22,10 +22,10 @@ const App = () => {
                  <Top name = {"Projects Exhibition"}/>
                  <Projects/>
                </Route>
-               <Route path="/resume">
+               {/* <Route path="/resume">
                  <Top name = {"Resume"}/>
                  <Resume/>
-               </Route>
+               </Route> */}
                </div>
              </Switch>
          </Router>
