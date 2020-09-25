@@ -5,21 +5,27 @@ import About from './Components/About';
 import Home from './Components/Home';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Resume from './Components/Resume';
 const App = () => {
   return (
+
          <Router className='app'>
+           <head>
+           <meta
+      name="description"
+      content="Junjie Yang's website" />
+      <title>Junjie Yang</title>
+      </head>
              <Switch>
                <div>
                <Route exact path="/">
                  <Home/>
                </Route>
                <Route path="/about">
-                  <Top name={"About Me"}/>
+                  <Top />
                   <About/>
                </Route>
                <Route path="/projects">
-                 <Top name = {"Projects Exhibition"}/>
+                 <Top/>
                  <Projects/>
                </Route>
                {/* <Route path="/resume">

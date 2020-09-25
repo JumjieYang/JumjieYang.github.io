@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Card, Carousel } from 'antd';
+import { Card, Carousel } from 'antd';
 import './index.css'
 import "antd/dist/antd.css";
 import Meta from 'antd/lib/card/Meta';
@@ -63,13 +63,13 @@ const Projects = () => {
                         <Card
                         bordered
                             size="small"
-                            style={{width:"600px", height:"500px"}}
-                            cover={<img alt="" src={project.pic} style={{width:"600px", height:"500px"}}/>}
+                            style={{width:"100%", height:"100%"}}
+                            cover={<img alt="" src={project.pic} style={{width:"100%", height:"100%"}}/>}
                             actions= {[
                                 <GithubOutlined key="check it on Github" onClick= {() => window.open(project.url)}/>
                             ]}                            
                             >
-                                <Meta title = {project.title} description={project.description}/>
+                                <Meta title = {project.title}/>
                             </Card>
                     </div>
                 )
@@ -78,7 +78,15 @@ const Projects = () => {
 
         return (
         <div style={{position: "0.5%"}} className ='projects'>
-           <Carousel autoplay autoplaySpeed={2000} style={{position:"relative", marginTop:"5%",marginLeft:"32%"}}>
+           <Carousel autoplay autoplaySpeed={2000} style={{
+               width: "400px",
+	           position: "absolute",
+	marginLeft: "-200px",
+	marginTop: "-80px",
+	top: "30%",
+    left: "50%",
+    display: "block",
+	zIndex: "2000"}}>
                {render()}
            </Carousel>
         </div>

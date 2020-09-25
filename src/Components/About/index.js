@@ -1,5 +1,5 @@
 import React from 'react';
-import {GithubOutlined, ZhihuOutlined } from '@ant-design/icons'
+import {GithubOutlined, LinkedinOutlined, ZhihuOutlined } from '@ant-design/icons'
 import { Row, Col} from 'antd';
 import './index.css';
 
@@ -11,59 +11,48 @@ const About = () => {
                 <Row>
                     <Col style={{padding: "2%"}} span={6}>
                         <img className='image' src={require("../../Assets/pics/About/IMG_0519.jpeg")} alt="pic-intro"/>
+                        <br/>
+                        <h2 style={{marginLeft:"-40%"}}>
+                        Grandescunt Aucta Labore<br/>By hard work, all things increase and grow <br></br>
+                        &nbsp;-- from McGill University<br/>
+                        </h2>
+                        
                     </Col>
                     <Col style={{padding: "0%"}} span={18}>
-                        <h2 style={{marginTop:"10%"}}>
-                        Interest Driven Developer, Curious and conscientious, a hard-working student, a good friend <br></br>-- From several of my friends<br/>
 
+                <p style={{marginTop:"10%"}}>
+                    Hi there. I'm Junjie Yang, a third year student at McGill University, and a growing software engineer.
+                    </p>
+                    <p>
+                        I become intrested in computer when I was at elementary school. At that time, I often play several computer games like StarCraft, Dota, and several Chinese online games hosted by Tencent with my friends and my father.
+                    </p>
+                <p>When I was in junior high, my goal was to become a doctor. Everything changed when I took a Computer Course at 8th Grade. I knew a programming language called Basic. I was attracted by that language, I was shocked that by several lines of code, one can made a calculator with simple functionalites.
+                    </p>
+                <p>
+                    I began to take part in several competitions related to Computer Science when I was in Gr.9, and I achieved several small achievements. With those in mind, when declaring major, I chose Computer Science as my major.
+                </p>
+                <p>
+                    Since I enjoys the process of implementing my ideas by hand, I have implemented several mini projects in my spare time and hosted some of them on server or using a service called Heroku.
+                </p>
+                <p>
+                    In Summer 2020, I joined a Chinese Tech Company called JD.COM as a Software Engineering Intern. During that time, I had a change to participate in the development of industrial-level Apps with some excellent programmers. And also, with the help of my mentor and other interns, we made a quality control platform called QM.
+                    During the time I was in JD, I learned a lot about the industrial-level software development processes.
+                </p>
+                <p>
+                    During the school years, I am involved in some volunteering activities. Began from Fall 2019, I started my journey as an international buddy, who is responsible for providing basic helps to new admitted students of my university. Also, I took part in CSUS Help Desk, which held office hour for 2 hours a week to help students in their freshman year to solve their course related problems.
+                </p>
 
-                        </h2>
+                <p>
+                    Welcome to check my Github<a href="https://github.com/JumjieYang"><GithubOutlined/></a>, Linkedin
+                        <a href="https://www.linkedin.com/in/junjie-yang-3b2918137/"><LinkedinOutlined/></a>, and Zhihu
+                        <a href="https://www.zhihu.com/people/yang-jun-jie-76-12"><ZhihuOutlined/></a>
+                </p>
+                <p style={{color:"gray"}}>
+                    I'm looking for Internship oppotunities for Summer 2021, if my skills fits your needs, please contact me via email or other method provided in my resume.
+                </p>
                     </Col>
                 </Row>
-                <h2>Intro</h2>
-                <p>
-                    Hi there. I'm Junjie Yang, a second year SE student of McGill University. In my spare time, I'd like to travel, watch Netflix, and play video games
-                    with my friends. I also like to use programming techniques to implement something that I'm interested at, you may check the detail in Projects tab. I usually post what I'm doing and what I've done on Github &nbsp;
-                        <a href='https://github.com/JumjieYang' target='_blank' rel="noopener noreferrer">
-                        <GithubOutlined style={{fontSize: "20px" ,color:"black"}}/>
-                        </a> &nbsp;
-                    and share my thoughts on a Chinese Platform called Zhihu.&nbsp;
-                        <a href='https://www.zhihu.com/people/yang-jun-jie-76-12' target='_blank' rel="noopener noreferrer">
-                        <ZhihuOutlined style={{fontSize: "20px" ,color:"black"}}/>
-                        </a>
-                        <br/>
-                    Meanwhile, I joined JD.com as a Software Engineering intern in Summer 2020, it was a great journey for me, I learned a lot while working with developers that works for at least 5 years.
-                    </p>
-                    <hr style={{marginLeft:"auto", marginRight:"auto"}}/>
-
-                <h2>Skills</h2>
-                <p>Since McGill uses Java for almost half of the entire CS/SE curriculum, I use Java for most of the time.
-                    Yet, I'm also excellent at Python, and C. I also use other languages like C++, and Ocaml for different purposes.<br/>
-                    Besides that, I can also do photo editing, video editing, and music mixing. Also, I'm capable of playing piano, chinese flute, and trumbone.
-                    </p>
-                    <hr style={{marginLeft:"auto", marginRight:"auto"}}/>
-
-                <h2>Core Courses Completed</h2>
-                <p>
-                    CS Related<br/> Software Design&nbsp;&nbsp; Algorithms &nbsp;&nbsp;Applied ML <br/>
-                    Math Related<br/> Calculus &nbsp;&nbsp; Linear Algebra &nbsp;&nbsp; Discrete Structures &nbsp;&nbsp; Probability <br/>
-                </p>
-                <hr style={{marginLeft:"auto", marginRight:"auto"}}/>
-
-                <h2>Experiences</h2>
-                <p>
-                    CSUS Help Desk<br/>
-                    Helps new students entering CS programs with their department related courses, hold office hour for 2 hours a week.<br/>
-                    Interational Buddy Program<br/>
-                    Provide new students entering University with cultural and necessary helps.<br></br>
-                    Software Engineering Intern <br/>
-                    Work with Developers at JD.com, helps to implement projects like JDH SaaS and JDH ERP. Also, implement a quality management platform called QM.
-                </p>
-                <hr style={{marginLeft:"auto", marginRight:"auto"}}/>
-                <p style={{color:"gray"}}>
-                    P.S.:  Not Single, got a diligent boyfriend who is pursuing his Master Degree at University Of British Columbia<br/>
-                    I'm also looking for Internship oppotunities, if my skills fits your needs, please contact me via email or other method in my resume.
-                </p>
+                
             </div>
         )
 }

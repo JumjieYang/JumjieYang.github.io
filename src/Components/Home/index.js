@@ -1,7 +1,7 @@
 import React from 'react';
 import Typed from 'react-typed';
 import { Link } from "react-router-dom";
-import { GithubOutlined, MailOutlined, InfoCircleOutlined, ProjectOutlined, ProfileOutlined, } from '@ant-design/icons';
+import { InfoCircleOutlined} from '@ant-design/icons';
 import './index.css'
 const Home = () => {
         return (
@@ -21,20 +21,8 @@ const Home = () => {
                     showCursor={false}
                     />
                     </p>
-                <h2>
+                <h2 className="icons"> 
                     <Link style={{color:"black"}} to="/about"><InfoCircleOutlined/></Link>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <Link style={{color:"black"}} to="/projects"><ProjectOutlined rotate={270} /></Link>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                {/* <Link style={{color:"black"}} to="/resume"><ProfileOutlined /></Link>&nbsp;&nbsp;&nbsp;&nbsp; */}
-
-                <a href='mailto:junjie.yang2@mail.mcgill.ca' target='_blank' rel="noopener noreferrer">
-                    <MailOutlined style={{color:"black"}}/>
-                </a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href='https://github.com/JumjieYang' target='_blank' rel="noopener noreferrer">
-                    <GithubOutlined style={{color:"black"}}/>
-                </a>
                 </h2>
         </div>
 

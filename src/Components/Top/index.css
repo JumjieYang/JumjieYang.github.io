@@ -1,11 +1,9 @@
 .top-container {
-    margin-top: -12px;
-    background-color: rgb(162, 192, 247);
+    background-color: rgba(238, 238, 238, 0.829);
 }
 
 .top-container .top-content {
     margin-left: 20px;
-    margin-top: 10px;
 }
 
 .top-container .top-content .h2 {
