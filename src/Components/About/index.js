@@ -20,7 +20,7 @@ const About = () => {
                     </Col>
                     <Col style={{padding: "0%"}} span={18}>
 
-                <p style={{marginTop:"10%"}}>
+                <p style={{paddingTop:"5%"}}>
                     Hi there. I'm Junjie Yang, a third year student at McGill University, and a growing software engineer.
                     </p>
                     <p>
