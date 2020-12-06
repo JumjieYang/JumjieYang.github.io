@@ -14,7 +14,7 @@ const Top = () => {
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     <Link style={{color:"black"}} to="/projects"><ProjectOutlined rotate={270} /></Link>
                     &nbsp;&nbsp;&nbsp;&nbsp;
-                    <BookOutlined onClick={() => window.open("https://github.com/JumjieYang/JumjieYang.github.io/src/Assets/docs/JunjieYang.pdf")} style={{color:"black"}}/>
+                    <BookOutlined onClick={() => window.open("https://github.com/JumjieYang/JumjieYang.github.io/blob/master/src/Assets/docs/JunjieYang.pdf")} style={{color:"black"}}/>
                 &nbsp;&nbsp;&nbsp;&nbsp;
             </h2>
             </div>

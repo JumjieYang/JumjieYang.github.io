@@ -1,0 +1,74 @@
+[debug] [2020-12-04T12:23:58.488Z] ----------------------------------------------------------------------
+[debug] [2020-12-04T12:23:58.490Z] Command:       /usr/local/bin/node /usr/local/bin/firebase projects:list
+[debug] [2020-12-04T12:23:58.490Z] CLI Version:   8.5.0
+[debug] [2020-12-04T12:23:58.490Z] Platform:      darwin
+[debug] [2020-12-04T12:23:58.490Z] Node Version:  v12.18.1
+[debug] [2020-12-04T12:23:58.491Z] Time:          Fri Dec 04 2020 20:23:58 GMT+0800 (China Standard Time)
+[debug] [2020-12-04T12:23:58.491Z] ----------------------------------------------------------------------
+[debug] [2020-12-04T12:23:58.491Z] 
+[debug] [2020-12-04T12:23:58.497Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-04T12:23:58.498Z] > authorizing via signed-in user
+[debug] [2020-12-04T12:23:58.501Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-12-04T12:23:58.501Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-12-04T12:25:16.541Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2020-12-04T12:25:16.758Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/auth.js:23:32)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/commands/login.js:20:14)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at loadCommand (/usr/local/lib/node_modules/firebase-tools/lib/commands/index.js:5:19)
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/commands/index.js:89:20)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2020-12-04T12:25:43.542Z] ----------------------------------------------------------------------
+[debug] [2020-12-04T12:25:43.544Z] Command:       /usr/local/bin/node /usr/local/bin/firebase projects:list
+[debug] [2020-12-04T12:25:43.545Z] CLI Version:   8.5.0
+[debug] [2020-12-04T12:25:43.545Z] Platform:      darwin
+[debug] [2020-12-04T12:25:43.545Z] Node Version:  v12.18.1
+[debug] [2020-12-04T12:25:43.547Z] Time:          Fri Dec 04 2020 20:25:43 GMT+0800 (China Standard Time)
+[debug] [2020-12-04T12:25:43.547Z] ----------------------------------------------------------------------
+[debug] [2020-12-04T12:25:43.547Z] 
+[debug] [2020-12-04T12:25:43.562Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-04T12:25:43.562Z] > authorizing via signed-in user
+[debug] [2020-12-04T12:25:43.567Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-12-04T12:25:43.567Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-12-04T12:27:01.485Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2020-12-04T12:28:19.469Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/auth.js:23:32)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/commands/login.js:20:14)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at loadCommand (/usr/local/lib/node_modules/firebase-tools/lib/commands/index.js:5:19)
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/commands/index.js:89:20)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
