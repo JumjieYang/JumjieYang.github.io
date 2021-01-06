@@ -3,6 +3,7 @@ import Projects from './Components/Projects';
 import Top from './Components/Top';
 import About from './Components/About';
 import Home from './Components/Home';
+import Resume from './Components/Resume';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 const App = () => {
@@ -28,10 +29,10 @@ const App = () => {
                  <Top/>
                  <Projects/>
                </Route>
-               {/* <Route path="/resume">
-                 <Top name = {"Resume"}/>
+               <Route path="/resume">
+                 <Top name = {"resume"}/>
                  <Resume/>
-               </Route> */}
+               </Route>
                </div>
              </Switch>
          </Router>
